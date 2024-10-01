@@ -15,11 +15,11 @@ const Navbar = () => {
     return (
         <nav className={`w-full z-10 fixed`}>
             <div className={`hidden md:flex justify-between items-center px-20 transition-all duration-300 ${scrollY > 0 ? 'py-3 bg-[#222] bg-opacity-50' : 'py-6 bg-transparent'}`}>
-                <Link href="/" className="text-white text-3xl font-bold hover:text-[rgba(255,255,255,0.8)] cursor-not-allowed">NexTalk</Link>
+                <Link href="/" className="text-white text-3xl font-bold hover:text-[rgba(255,255,255,0.8)] cursor-not-allowed opacity-50">NexTalk</Link>
                 <ul className='flex gap-6 lg:gap-10 items-center text-white'>
-                    <Link href="/" className="cursor-not-allowed text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> Home </Link>
-                    <Link href="/" className="cursor-not-allowed text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> About </Link>
-                    <Link href="/" className="cursor-not-allowed text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> Contact </Link>
+                    <Link href="/" className="cursor-not-allowed opacity-50 text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> Home </Link>
+                    <Link href="/" className="cursor-not-allowed opacity-50 text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> About </Link>
+                    <Link href="/" className="cursor-not-allowed opacity-50 text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> Contact </Link>
                     <Link href="/login" className="text-[1.2rem] hover:underline hover:text-[rgba(255,255,255,0.8)]"> Log In </Link>
                     <TryForFreeBtn />
                 </ul>

@@ -15,6 +15,8 @@ const AuthSidebar = ({ href }: { href: string }) => {
                     width={300}
                     height={300}
                     className='object-contain'
+                    priority
+                    style={{ width: "auto" }}
                 />
 
                 <div className='flex flex-col items-center gap-4 text-white'>
