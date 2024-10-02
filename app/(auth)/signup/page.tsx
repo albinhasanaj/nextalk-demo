@@ -3,11 +3,14 @@ import { Fragment } from 'react';
 
 const SignUp = () => {
     return (
-        <Fragment>
+        <div
+            id='auth-layout'
+            className='flex'
+        >
             <AuthForm
                 isLogin={false}
             />
-        </Fragment>
+        </div>
     )
 }
 

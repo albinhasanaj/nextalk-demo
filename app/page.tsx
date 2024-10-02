@@ -8,20 +8,23 @@ import React from 'react'
 
 const HomePage = () => {
     return (
-        <div className='relative w-full h-screen'>
+        <div
+            className='relative w-full h-screen'>
             <Navbar />
             <TopHP />
-            <div>
-            <div className='bg-black w-full '>
-                <MidFeatures />
+            <div id="home-page"
+                className='pt-20 bg-black'
+            >
+                <div className='bg-black w-full pt-20'>
+                    <MidFeatures />
+                </div>
+                <div className='bg-black w-full pt-20'>
+                    <Collage />
+                </div>
+                <div className='bg-black w-full pt-20 pb-10'>
+                    <Form />
+                </div>
             </div>
-            <div className='bg-black w-full '>
-                <Collage />
-            </div>
-            <div className='bg-black w-full '>
-                <Form />
-            </div>
-        </div>
             <Footer />
         </div>
     )

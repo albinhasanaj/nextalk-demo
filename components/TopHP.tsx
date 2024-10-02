@@ -19,7 +19,7 @@ const TopHP = () => {
             </div>
 
             {/* HERO TEXT */}
-            <div className='hidden md2:flex relative w-full h-full items-center justify-center'>
+            <div className='hidden md2:flex relative w-full h-full items-center justify-center pt-40'>
                 <div className='max-w-[1440px] flex items-center w-full justify-between px-20 mb-20'>
                     <div>
                         <Image

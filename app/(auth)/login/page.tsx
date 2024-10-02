@@ -4,12 +4,15 @@ import AuthForm from '@/components/AuthForm'
 
 const LogIn = () => {
     return (
-        <Fragment>
+        <div
+            id='auth-layout'
+            className='flex'
+        >
 
             <AuthForm
                 isLogin={true}
             />
-        </Fragment>
+        </div>
     )
 }
 
