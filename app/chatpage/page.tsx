@@ -13,7 +13,6 @@ const ChatPage = () => {
 
     return (
         <div
-            id="chat-page"
             className="w-full flex flex-col bg-cover bg-no-repeat"
         >
             <ChatNavbar

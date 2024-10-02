@@ -1,11 +1,10 @@
 
-import React, { Fragment } from 'react'
+import React from 'react'
 import AuthForm from '@/components/AuthForm'
 
 const LogIn = () => {
     return (
         <div
-            id='auth-layout'
             className='flex'
         >
 

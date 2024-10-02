@@ -66,12 +66,3 @@ input[type="checkbox"]:checked::after {
     animation-timeline: view();
     animation-range: entry 0 cover 25%;
 }
-
-@media screen and (max-width: 1400px) {
-
-    #chat-page,
-    #auth-layout {
-        transform: scale(0.7);
-    }
-
-}

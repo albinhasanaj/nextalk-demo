@@ -35,7 +35,7 @@ const AuthForm = ({ isLogin }: AuthFormProps) => {
         <Fragment>
             <AuthSidebar href={isLogin ? "/signup" : "/login"} />
             {/* RIGHT SIDE */}
-            <div className="w-[300px] md:w-[500px] md:h-[600px] lg:w-[600px] h-auto lg:h-[750px] md:rounded-r-3xl md:rounded-tl-none md:rounded-bl-none md:rounded-tr-3xl border border-white border-opacity-50 bg-white/7 backdrop-blur-[7.5px] bg-[rgba(255,255,255,0.07)] text-white flex flex-col items-center py-8 gap-8 rounded-3xl">
+            <div className="w-[300px] md:w-[500px] h-[100vh] lg:w-[600px] lg:h-[90vh] md:rounded-r-3xl md:rounded-tl-none md:rounded-bl-none md:rounded-tr-3xl border border-white border-opacity-50 bg-white/7 backdrop-blur-[7.5px] bg-[rgba(255,255,255,0.07)] text-white flex flex-col items-center py-8 gap-8 rounded-3xl">
                 <h1 className="text-white text-[24px] md:text-[40px] not-italic font-bold leading-[normal] tracking-[2px]">
                     {isLogin ? "Log In here" : "Register here"}</h1>
                 <form onSubmit={onFormSubmit} className='flex flex-col items-center w-2/3 gap-2 lg:gap-6 my-auto'>

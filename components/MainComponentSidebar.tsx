@@ -152,7 +152,7 @@ const MainComponentSidebar = ({ view, setView, isOpen, setIsOpen, socket }: Main
     };
 
     return (
-        <div className={`${classNames} w-[300px] sm:w-[350px] h-[500px] sm:h-[600px] md:flex lg:w-[350px] md:h-[600px] lg:h-[750px] rounded-l-3xl md:rounded-tr-none md:rounded-br-none rounded-bl-3xl flex-shrink-0 border border-white/54 bg-white/7 backdrop-blur-[7.5px] flex-col justify-between bg-[rgba(255,255,255,0.07)] gap-10`}
+        <div className={`${classNames} w-[80vw] h-[calc(100vh-180px)] md:flex md:w-[300px] lg:w-[350px] lg:h-[90vh] rounded-l-3xl md:rounded-tr-none md:rounded-br-none rounded-bl-3xl flex-shrink-0 border border-white/54 bg-white/7 backdrop-blur-[7.5px] flex-col justify-between bg-[rgba(255,255,255,0.07)] gap-10`}
         >
             <Searchbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             {/* LEFT SIDE */}
