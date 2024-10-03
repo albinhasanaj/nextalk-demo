@@ -18,7 +18,7 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '1', // Your user ID
             isSender: false,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/public/23" },
+            sender: { profilePic: "/images/profile/anonymous.png" },
         },
         {
             content: "I'm doing good, just working on a project.",
@@ -26,7 +26,7 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '2', // Friend's ID
             isSender: true,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/public/29" },
+            sender: { profilePic: "/images/nickname.png" },
         },
         {
             content: "That's awesome! Keep it up.",
@@ -34,7 +34,7 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '1',
             isSender: false,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/public/23" },
+            sender: { profilePic: "/images/profile/anonymous.png" },
         }
     ];
 
@@ -45,7 +45,9 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '2', // Your user ID
             isSender: false,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/username?username=unknown+user" },
+            sender: {
+                profilePic: "/images/profile/anonymous.png",
+            },
         },
         {
             content: "I'm doing good, just working on a project.",
@@ -53,15 +55,17 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '1', // Friend's ID
             isSender: true,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/public/29" },
+            sender: {
+                profilePic: "/images/nickname.png"
+            },
         },
         {
-            content: "That's awesome! Keep it up. I'm sure you'll do great.",
+            content: "That's awesome! Keep it up.",
             senderId: '1',
             receiverId: '2',
             isSender: false,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/username?username=unknown+user" },
+            sender: { profilePic: "/images/profile/anonymous.png" },
         },
         {
             content: "I'm sure you'll do great.",
@@ -69,7 +73,7 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '2',
             isSender: false,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/username?username=unknown+user" },
+            sender: { profilePic: "/images/profile/anonymous.png" },
         },
         {
             content: "Thanks! I appreciate the support.",
@@ -77,7 +81,7 @@ const ChatSelected = ({ socket, isConnected }: ChatSelectedProps) => {
             receiverId: '1',
             isSender: true,
             seen: false,
-            sender: { profilePic: "https://avatar.iran.liara.run/public/29" },
+            sender: { profilePic: "/images/nickname.png" },
         }
 
     ];

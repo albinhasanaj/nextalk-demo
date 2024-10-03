@@ -36,7 +36,7 @@ const AuthForm = ({ isLogin }: AuthFormProps) => {
             <AuthSidebar href={isLogin ? "/signup" : "/login"} />
             {/* RIGHT SIDE */}
             <div className="w-[300px] md:w-[500px] h-[100vh] lg:w-[600px] lg:h-[90vh] md:rounded-r-3xl md:rounded-tl-none md:rounded-bl-none md:rounded-tr-3xl border border-white border-opacity-50 bg-white/7 backdrop-blur-[7.5px] bg-[rgba(255,255,255,0.07)] text-white flex flex-col items-center py-8 gap-8 rounded-3xl">
-                <h1 className="text-white text-[24px] md:text-[40px] not-italic font-bold leading-[normal] tracking-[2px]">
+                <h1 className="text-white text-[24px] md:text-[32px] not-italic font-bold leading-[normal] tracking-[2px]">
                     {isLogin ? "Log In here" : "Register here"}</h1>
                 <form onSubmit={onFormSubmit} className='flex flex-col items-center w-2/3 gap-2 lg:gap-6 my-auto'>
                     <div className="w-full flex flex-col lg:flex-row justify-between gap-4">
@@ -66,15 +66,10 @@ const AuthForm = ({ isLogin }: AuthFormProps) => {
                         </Fragment>
                     )}
                     <div className="flex flex-col items-center gap-8">
-                        <div className="flex gap-2 justify-center items-center">
-                            <input name="rememberMe" type="checkbox" className="appearance-none w-3 h-3 lg:w-5 lg:h-5 border-2 border-white rounded bg-transparent cursor-pointer" />
-                            <label htmlFor="rememberMe" className="text-[14px] font-normal">Remember Me</label>
-                        </div>
 
                         <button type="submit" className="text-black bg-white py-2 w-2/3 rounded-[36px] text-[14px] font-semibold lg:text-[20px]">
                             {isLogin ? "Sign In" : "Sign Up"}
                         </button>
-                        {/* remember me checkbox */}
                         <AuthProviderButton provider="github" />
                         <div className="flex md:hidden">
                             <Link

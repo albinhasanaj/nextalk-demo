@@ -14,7 +14,7 @@ const MainComponentSidebar = ({ view, setView, isOpen, setIsOpen, socket }: Main
         {
             username: 'John Doe',
             nickname: 'John',
-            profilePic: "https://avatar.iran.liara.run/username?username=unknown+user",
+            profilePic: "/images/profile/anonymous.png",
             isOnline: true,
             hasIcon: '',
             isPinned: false,
@@ -24,7 +24,7 @@ const MainComponentSidebar = ({ view, setView, isOpen, setIsOpen, socket }: Main
         {
             username: 'Jane Doe',
             nickname: 'Jane',
-            profilePic: "https://avatar.iran.liara.run/username?username=unknown+user",
+            profilePic: "/images/profile/anonymous.png",
             isOnline: false,
             hasIcon: '',
             isPinned: false,
